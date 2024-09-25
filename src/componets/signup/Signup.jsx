@@ -24,7 +24,7 @@ export default function Signup() {
             </div>
 
             <div className="btn">
-                <button className="btn btn-primary w-100">
+                <button className="btn btn-primary w-100" >
                 Register Now
                 </button>
             </div>

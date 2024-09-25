@@ -25,7 +25,7 @@ export default function Login() {
            <input type="password" className="form-control mb-5" placeholder="inter your password" />
            </div>
            <div className="">
-        <button className="btn btn-primary w-100">Login</button>
+        <button className="btn btn-primary w-100" >Login</button>
         </div>
             <span className="text-center">Don't have account?<a href="#" >click here</a></span>
         </div>
