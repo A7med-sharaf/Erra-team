@@ -1,0 +1,25 @@
+
+.cardlogin{
+    width:  18rem;
+    height:40vh;
+}
+.input-email{
+    position: relative;
+}
+.icon-email{
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+.form-control{
+    text-align: center;
+}
+
+.input-password{
+    position: relative;
+}
+.icon-password{
+    position: absolute;
+    top: 35px;
+    left: 7px;
+}

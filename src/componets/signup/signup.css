@@ -1,0 +1,11 @@
+.card{
+    width: 25rem;   
+}
+
+
+
+.input-check{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
