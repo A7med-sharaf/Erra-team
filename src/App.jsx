@@ -9,10 +9,12 @@ export default function
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<h1 className='text-center'>welcome</h1>} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/Signup' element={<Signup></Signup>} />
-
+          <Route path='/'>
+            <Route  index element={<Login />} />
+            <Route path='home' element={<h1>home page</h1>} />
+            <Route path='signup' element={<Signup/>} />
+            <Route path='*' element={<h1>page 404</h1>} />
+          </Route>
         </Routes>
       
       </BrowserRouter>
